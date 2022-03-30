@@ -6,4 +6,18 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    list1[i] = list1[i] == 1
+    i += 1
+    list1[i] = list1[i] == 1
+    i += 1
+    list1[i] = list1[i] == 1
+    i += 1
+    list1[i] = list1[i] == 1
+    i += 1
+    list1[i] = list1[i] == 1
+    i += 1
+    return list1
+
+
+print(main([1, 0, 1, 0, 1]))
